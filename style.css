@@ -1,0 +1,43 @@
+.bagian-atas{
+    text-align: center;
+}
+
+.bagian-tengah{
+    display: flex;
+    justify-content: center;
+}
+
+.bagian-bawah{
+    border: 1px solid black;
+
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 992px){
+    .bagian-atas{
+        font-size: 20px;
+        color: brown;
+    }
+}
+
+/*Layar PC*/
+@media (min-width: 992px){
+    .bagian-atas{
+        font-size: 30px;
+        color:darkmagenta;
+    }
+
+    .bagian-tengah{
+        display: flex;
+        justify-content: start;
+    }
+
+    table, th, td{
+        border: 3px solid black;
+    }
+
+    .bagian-bawah{
+        display: flex;
+        justify-content: center;
+    }
+}
